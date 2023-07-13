@@ -1,0 +1,28 @@
+.landing-page{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    padding:2rem;
+    background-color:rgb(241, 241, 241);
+    min-height:100vh;
+    
+}
+.landing-page>header{
+    display:flex;
+    justify-content: space-between;
+
+}
+header>select{
+    padding:0 1rem;
+    
+    background-color: white;
+    border:0;
+}
+.events-container{
+    display:flex;
+    gap:2rem;
+
+    flex-wrap: wrap;
+    padding:0 2rem;
+    
+}

@@ -1,0 +1,26 @@
+.event-card{
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+    position:relative;
+}
+.img-div{
+    font-size:0
+}
+.img-div>img{
+    width:250px;
+    height:250px;
+    border-radius:0.5rem;
+}
+.event-card>small{
+    color:gray;
+
+}
+.event-type-tag{
+    position:absolute;
+    top:5%;
+    left:5%;
+    border-radius:0.4rem;
+    padding:0.5rem;
+    background-color:white;
+}
